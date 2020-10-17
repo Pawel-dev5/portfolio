@@ -1,0 +1,11 @@
+.NavBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    font-family: $font-primary;
+    color: $color-third;
+    // font-size: $font-size-H1;
+}
+#name {
+    font-size: $font-size-H1;
+}
