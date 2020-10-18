@@ -5,8 +5,8 @@
     "description": " obecnie zatrudniny w ",
     "employer": "Agencji Hagen",
     "jobDescription": "Account Executive",
-    "image": "profile_pic2.jpg",
-    "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for online security, and a passion for coding. Having returned from my year of traveling, I pursued my first development job to kick off my career. I was hired as a full stack developer by Shop Your Own Mortgage, where I still work today. Since beginning my career there, I have been given the opportunity to shift into cybersecurity for the company. I am currently working towards my Certified Ethical Hacker certification while working as a full stack developer and lead security specialist.",
+    "image": "profilepic.jpg",
+    "bio": "Jestem Junior Frontend Developerem, obecnie zatrudniny w Agencji Hagen gdzie pracuje jako Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych.\nProwadzę działalność gospodarczą i poszukuję nowych projektów IT.",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "email": "p.nowecki@gmail.com",
     "phone": "791-893-867",
@@ -111,7 +111,7 @@
       {
         "name": "JavaScript",
         "description": "",
-        "image": "js.png"
+        "image": "JS.png"
       },
       
       {
@@ -174,9 +174,9 @@
         "image": "analytics.png"
       },
       {
-        "name": "Analytics",
+        "name": "Trello",
         "description": "",
-        "image": "analytics.png"
+        "image": "trello.jpg"
       }
     ]    
   },
@@ -195,14 +195,15 @@
         "title": "Finlux Biuro rachunkowe",
         "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nHTML5\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
         "image": "finlux1.png",
-        "url": "https://finlux.com.pl/"
+        "url": "https://finlux.com.pl/",
+        "git": "https://github.com/Pawel-dev5/"
       },
       {
         "title": "Portfolio",
         "description": "",
         "image": "Portfolio.png",
-        "url": " https://pawel-dev5.github.io/",
-        "git": " https://pawel-dev5.github.io/"
+        "url": "https://pawel-dev5.github.io/",
+        "git": "https://github.com/Pawel-dev5/portfolio/"
       }
     ]
   },
