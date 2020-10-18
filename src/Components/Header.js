@@ -26,8 +26,8 @@ class Header extends Component {
                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
                <ul id="nav" className="nav">
+                  {/* <a className="smoothscroll" href="#home">Home</a> */}
                   <li className="current">
-                     {/* <a className="smoothscroll" href="#home">Home</a> */}
                      <ScrollLink
                         className="smoothscroll"
                         smooth={true}
@@ -36,7 +36,7 @@ class Header extends Component {
                      >Home
                      </ScrollLink>
                   </li>
-                  <li>
+                  <li className="current">
                      <ScrollLink
                         className="smoothscroll"
                         smooth={true}
@@ -45,7 +45,7 @@ class Header extends Component {
                      >O mnie
                   </ScrollLink>
                   </li>
-                  <li>
+                  <li className="current">
                      <ScrollLink
                         className="smoothscroll"
                         smooth={true}
@@ -54,16 +54,26 @@ class Header extends Component {
                      >Praca i edukacja
                   </ScrollLink>
                   </li>
-                  <li>
+                  <li className="current">
+                     <ScrollLink
+                        className="smoothscroll"
+                        smooth={true}
+                        duration={500}
+                        to="tech"
+                     >Technologie
+                  </ScrollLink>
+                  </li>
+                  <li className="current">
                      <ScrollLink
                         className="smoothscroll"
                         smooth={true}
                         duration={500}
                         to="portfolio"
                      >Portfolio
-                  </ScrollLink>                    </li>
+                  </ScrollLink>
+                  </li>
                   {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
-                  {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
+                  {/* <li><a className="smoothscroll" href="#tech">Contact</a></li> */}
                </ul>
             </nav>
 

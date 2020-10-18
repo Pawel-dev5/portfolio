@@ -185,7 +185,8 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+/* ul#nav li a.current { color: #F06000; } */
+ul#nav li a:hover { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
