@@ -186,7 +186,7 @@
     "projects": [
       {
         "title": "Finlux Biuro rachunkowe",
-        "description": "Strona biura rachunkowego przygotowana na postawie szablony Wordpress.\nWykorzystane technologie:\nHTML5\nCSS3\nWordpress plugins",
+        "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nHTML5\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
         "image": "canadian-wanderlust.jpg",
         "url": "https://finlux.com.pl/"
       },
