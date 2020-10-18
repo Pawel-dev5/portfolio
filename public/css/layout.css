@@ -187,7 +187,9 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 /* ul#nav li a.current { color: #F06000; } */
 ul#nav li a:hover { color: #F06000; }
-
+ul#nav li a:hover {
+   cursor: pointer;
+}
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -377,7 +379,9 @@ ul#nav li a:hover { color: #F06000; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.png) repeat;
+   /* background: url(../images/overlay-bg.png) repeat; */
+   background: black;
+   /* background-color: black repeat; */
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
@@ -419,7 +423,7 @@ ul#nav li a:hover { color: #F06000; }
 
 /* on hover */
 .portfolio-item:hover .overlay {
-	opacity: 1;
+	opacity: 2;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
@@ -529,7 +533,29 @@ call-to-action .button {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
-
+.button-portfolio {
+   width: 100%;
+   /* margin: 5px 5px 5px 5px; */
+   margin-top: 10px;
+   background: #444;
+}
+.button-portfolio:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+.download-portfolio > a:nth-child(1) {
+   margin-right: 10px;
+}
+.download-portfolio > a {
+ width: 50%;
+ 
+}
+.download-portfolio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+}
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
