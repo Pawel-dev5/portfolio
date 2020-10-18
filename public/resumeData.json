@@ -185,36 +185,24 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Finlux Biuro rachunkowe",
-        "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nHTML5\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://finlux.com.pl/"
-      },
-      {
         "title": "Oddam w Dobre ręce",
         "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta, zalogowania, wypełnieniu 2 formularzy(w tem jeden dostępny dopiero po zalogowaniu)\nWykorzystane technologie:\nReact\nJavaScipt\nHTML5\nScss\nFirebase\nWebpack\nReact Hooks",
-        "image": "fury-fighting-gear.jpg",
+        "image": "oddamwdobrerece.png",
         "url": "https://pawel-dev5.github.io/oddamwdoberece/",
         "git": "https://github.com/Pawel-dev5/oddamwdoberece/"
       },
       {
+        "title": "Finlux Biuro rachunkowe",
+        "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nHTML5\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
+        "image": "finlux1.png",
+        "url": "https://finlux.com.pl/"
+      },
+      {
         "title": "Portfolio",
         "description": "",
-        "image": "original-thai-food.jpg",
+        "image": "Portfolio.png",
         "url": " https://pawel-dev5.github.io/",
         "git": " https://pawel-dev5.github.io/"
-      },
-      {
-        "title": "Resume Website",
-        "description": "",
-        "image": "resume-website.jpg",
-        "url": "https://github.com/tbakerx/react-resume-template"
-      },
-      {
-        "title": "Smirkspace",
-        "description": "",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
       }
     ]
   },

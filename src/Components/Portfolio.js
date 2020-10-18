@@ -22,13 +22,13 @@ class Portfolio extends Component {
             </a>
           </div>
         </div>
-            <div  className="overlay">
+            {/* <div  className="overlay"> */}
               {/* <i className="fa fa-link"></i> */}
-              <button href="about">Git</button>
-              <button href="https://github.com/Pawel-dev5/oddamwdoberece/">Live prewiev</button>
+              {/* <button href="about">Git</button> */}
+              {/* <button href="https://github.com/Pawel-dev5/oddamwdoberece/">Live prewiev</button> */}
               {/* "url": "https://pawel-dev5.github.io/oddamwdoberece/",
         "git": "https://github.com/Pawel-dev5/oddamwdoberece/" */}
-            </div>
+            {/* </div> */}
             </>
         )
       })
