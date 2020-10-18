@@ -10,6 +10,7 @@ class About extends Component {
       var city = this.props.data.address.city;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
+      var country = this.props.data.address.country
       var resumeDownload = this.props.data.resumedownload;
     }
 
@@ -28,7 +29,7 @@ class About extends Component {
                   <h2>Dane kontaktowe</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-						   <span>{city}<br />
+						   <span>{city}, {country}<br />
                    </span>
 						   <span>{phone}</span><br />
                      <span><a href={email}>{email}</a></span>

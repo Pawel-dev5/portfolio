@@ -6,12 +6,12 @@
   font-size: 2rem;
 }
 
-.feature-item{
-  text-align: center;
+/* .feature-item{
+  text-align: left;
   margin-top:2.5em;
-  padding-left:2em;
+  margin-left:-20px;
   padding-right:2em;
-}
+} */
 
 .center{
   text-align: center;

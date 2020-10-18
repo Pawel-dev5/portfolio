@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import Scroll from "react-scroll";
 
+const ScrollLink = Scroll.Link;
 class Footer extends Component {
   render() {
 
     if (this.props.data) {
-      var email= this.props.data.email;
+      var email = this.props.data.email;
       var networks = this.props.data.social.map(function (network) {
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -22,12 +24,20 @@ class Footer extends Component {
             </ul>
 
             <ul className="copyright">
-              <li>&copy; Copyright 2020 <a title="Tim Baker" href="https://pawel-dev5.github.io/">Paweł Nowecki</a></li>
-              {/* <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li> */}
+              <li>&copy; Copyright 2020 <a title="Paweł Nowecki" href="https://pawel-dev5.github.io/">Paweł Nowecki</a></li>
             </ul>
 
           </div>
-          <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+          <div id="go-top">
+            <ScrollLink
+              className="smoothscroll"
+              smooth={true}
+              duration={500}
+              to="home"
+            >
+              <i className="icon-up-open"></i>
+            </ScrollLink>
+          </div>
         </div>
       </footer>
     );

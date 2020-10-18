@@ -18,6 +18,9 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
+   .feature-item{
+      text-align: center;
+    }
 
 }
 
@@ -236,7 +239,9 @@
    #resume h3, #resume .info { text-align: center; }
       
    .bars { width: 100%; }
-
+   .feature-item{
+      text-align: center;
+    }
 
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
@@ -362,7 +367,30 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+   .skill {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   img.skill {
+      max-width: 100%;
+   }
 
+   .techul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 100px;
+      /* flex-direction: column; */
+      
+    }
+    .techul > li{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+   /* #resume .main-col { padding-right: 0; } */
    /* footer
    ------------------------------------------------------------------------ */
 

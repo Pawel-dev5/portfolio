@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import Scroll from "react-scroll";
 
+const ScrollLink = Scroll.Link;
 class Header extends Component {
    render() {
 
@@ -24,10 +26,42 @@ class Header extends Component {
                <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
                <ul id="nav" className="nav">
-                  <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                  <li><a className="smoothscroll" href="#about">O mnie</a></li>
-                  <li><a className="smoothscroll" href="#resume">Praca i edukacja</a></li>
-                  <li><a className="smoothscroll" href="#portfolio">Projekty</a></li>
+                  <li className="current">
+                     {/* <a className="smoothscroll" href="#home">Home</a> */}
+                     <ScrollLink
+                        className="smoothscroll"
+                        smooth={true}
+                        duration={500}
+                        to="home"
+                     >Home
+                     </ScrollLink>
+                  </li>
+                  <li>
+                     <ScrollLink
+                        className="smoothscroll"
+                        smooth={true}
+                        duration={500}
+                        to="about"
+                     >O mnie
+                  </ScrollLink>
+                  </li>
+                  <li>
+                     <ScrollLink
+                        className="smoothscroll"
+                        smooth={true}
+                        duration={500}
+                        to="resume"
+                     >Praca i edukacja
+                  </ScrollLink>
+                  </li>
+                  <li>
+                     <ScrollLink
+                        className="smoothscroll"
+                        smooth={true}
+                        duration={500}
+                        to="portfolio"
+                     >Portfolio
+                  </ScrollLink>                    </li>
                   {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                   {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
                </ul>
@@ -51,7 +85,15 @@ class Header extends Component {
             </div>
 
             <p className="scrolldown">
-               <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+               <ScrollLink
+                  className="smoothscroll"
+                  smooth={true}
+                  duration={500}
+                  to="about"
+               >
+                  <i className="icon-down-circle"></i>
+               </ScrollLink>
+               {/* <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a> */}
             </p>
 
          </header>

@@ -56,7 +56,7 @@ header .banner {
    padding-bottom: 30px;
    padding-top: 30px;
    text-align: center;
-   background-color: rgba(0,0,0, 0.6);
+   background-color: rgba(0,0,0, 0.85);
    border-radius: 2em;
 }
 
@@ -134,7 +134,7 @@ header .scrolldown a:hover { color: #179038; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 14px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -159,7 +159,7 @@ ul#nav {
 ul#nav li {
    position: relative;
    list-style: none;
-   height: 48px;
+   height: 68px;
    display: inline-block;
 }
 
@@ -168,8 +168,10 @@ ul#nav li a {
 
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
-   display: inline-block;
-   padding: 8px 13px;
+   display: flex;
+   flex-direction: column;
+   padding: 15px 13px;
+   align-items: center;
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
@@ -254,6 +256,38 @@ ul#nav li.current a { color: #F06000; }
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+.feature-item{
+   text-align: left;
+   /* margin-left:-20px; */
+   margin-top: 50px;
+   padding-right:2em;
+   text-align: center;
+ }
+ .tech, .skill >div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .techBox {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .techul {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-width: 1000px;
+   flex-direction: column;
+ }
+ .techul > li{
+   display: flex;
+   justify-content: center;
+ }
 #resume h1 span {
    border-bottom: 3px solid #179038;
    padding-bottom: 6px;
