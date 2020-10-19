@@ -24,7 +24,7 @@ class Portfolio extends Component {
               <div className="overlay">
                 <div className="download-portfolio">
                   <a href={projects.git} title={projects.title}  target="_blank" rel="noopener noreferrer" >
-                    <button className="button-portfolio" href={projects.git}>Code</button>
+                    <button className="button-portfolio" href={projects.git}>Git</button>
                   </a>
                   <a href={projects.url} title={projects.title}  target="_blank" rel="noopener noreferrer" >
                     <button className="button-portfolio" href={projects.url} >Live</button>
