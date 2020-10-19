@@ -200,10 +200,17 @@
       },
       {
         "title": "Portfolio",
-        "description": "",
+        "description": "Strona na której właśnie się znajdujesz. Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nWebpack\nReact Scroll\nJSON",
         "image": "Portfolio.png",
         "url": "https://pawel-nowecki-portfolio.netlify.app/",
         "git": "https://github.com/Pawel-dev5/portfolio/"
+      },
+      {
+        "title": "Mailing HOS",
+        "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills",
+        "image": "hos.jpg",
+        "url": "https://mailing-hos.netlify.app/",
+        "git": "https://github.com/Pawel-dev5/Mailing-HOS"
       }
     ]
   },
