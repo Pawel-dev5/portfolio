@@ -11,7 +11,7 @@ class Portfolio extends Component {
           <>
             <div id="portfolio-item" key={projects.title} className="columns portfolio-item">
               <div className="item-wrap">
-                <a href={projects.url} title={projects.title}>
+                <a href={projects.url} title={projects.title}  target="_blank" rel="noopener noreferrer">
                   <img alt={projects.title} src={projectImage} />
                   <div className="overlay">
                     <div className="portfolio-item-meta">
@@ -23,11 +23,11 @@ class Portfolio extends Component {
               </div>
               <div className="overlay">
                 <div className="download-portfolio">
-                  <a href={projects.git} title={projects.title}>
-                    <button className="button-portfolio" href={projects.git}>Git</button>
+                  <a href={projects.git} title={projects.title}  target="_blank" rel="noopener noreferrer" >
+                    <button className="button-portfolio" href={projects.git}>Code</button>
                   </a>
-                  <a href={projects.url} title={projects.title}>
-                    <button className="button-portfolio" href={projects.url}>Live prewiev</button>
+                  <a href={projects.url} title={projects.title}  target="_blank" rel="noopener noreferrer" >
+                    <button className="button-portfolio" href={projects.url} >Live</button>
                   </a>
                 </div>
               </div>
