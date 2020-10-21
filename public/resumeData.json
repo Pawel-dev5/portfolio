@@ -206,8 +206,15 @@
         "git": "https://github.com/Pawel-dev5/portfolio/"
       },
       {
+        "title": "BestShop",
+        "description": "Desktopowy layout sklepu internetowego\nWykorzystane technologie:\nHTML\nCSS3",
+        "image": "BestShop.png",
+        "url": "https://best-shop-layout-desktop.netlify.app/",
+        "git": "https://github.com/Pawel-dev5/BestShop"
+      },
+      {
         "title": "Mailing HOS",
-        "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills",
+        "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills\nWykorzystane technologie:\nHTML\nCSS",
         "image": "hos.jpg",
         "url": "https://mailing-hos.netlify.app/",
         "git": "https://github.com/Pawel-dev5/Mailing-HOS"
