@@ -213,11 +213,18 @@
         "git": "https://github.com/Pawel-dev5/BestShop"
       },
       {
-        "title": "Mailing HOS",
+        "title": "Newsletter HOS",
         "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills\nWykorzystane technologie:\nHTML\nCSS",
         "image": "hos.jpg",
         "url": "https://mailing-hos.netlify.app/",
         "git": "https://github.com/Pawel-dev5/Mailing-HOS"
+      },
+      {
+        "title": "Newsletter wykończenia mieszkań",
+        "description": "Wykorzystane technologie:\nHTML\nCSS",
+        "image": "mailingMieszkania.png",
+        "url": "https://newsletter-wykonczenia-mieszkan.netlify.app/",
+        "git": "https://github.com/Pawel-dev5/Mailing-wykonczenia-mieszkan"
       }
     ]
   },
