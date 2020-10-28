@@ -599,6 +599,8 @@ input[type="checkbox"] { display: inline; }
    width: 96%;
    max-width: 1200px;
    margin: 0 auto;
+   /* display: flex;
+   justify-content: center; */
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
@@ -621,7 +623,10 @@ input[type="checkbox"] { display: inline; }
    position: relative;
    padding: 0 20px;
    min-height: 1px;
-   float: left;
+   /* float: left; */
+   display: inline-block;
+   align-items: center;
+   justify-content: center;
 }
 .column.centered, .columns.centered  {
     float: none;
