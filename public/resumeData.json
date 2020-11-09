@@ -180,10 +180,17 @@
       }
     ]    
   },
-
-
+  
+  
   "portfolio": {
     "projects": [
+      {
+        "title": "Sklep internetowy Choinki z dowozem",
+        "description": "Sklep internetowy oparty na Worpress i WooCommerce\nWykorzystane technologie:\nWordpress\nWooCommerce\nGoogle Analytics\nRWD\nHTML5\nCSS3",
+        "image": "choinki.jpg",
+        "url": "https://choinkizdowozem.pl/",
+        "git": "https://github.com/Pawel-dev5/"
+      },
       {
         "title": "Oddam w Dobre ręce",
         "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nHTML5\nScss\nFirebase\nWebpack\nReact Hooks",
