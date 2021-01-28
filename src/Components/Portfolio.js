@@ -225,7 +225,7 @@ class Portfolio extends Component {
           <div className="twelve columns collapsed">
             <h1>Sprawdź moje projekty</h1>
             <div>
-            <Filters
+            {/* <Filters
               onClickAll={this.setAll}
               all={all}
               onClick={this.setFilter}
@@ -233,8 +233,8 @@ class Portfolio extends Component {
             {(all) ? (
               <Cards imgs={imgs} />
             ) : (
-                <Cards imgs={this.state.imgs} />
-              )}
+                <Cards imgs={this.state.imgs} /> */}
+              {/* )} */}
           </div>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {projects}
