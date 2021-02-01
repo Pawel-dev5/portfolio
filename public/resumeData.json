@@ -180,8 +180,6 @@
       }
     ]    
   },
-  
-  
   "portfolio": {
     "projects": [
       {
@@ -189,64 +187,72 @@
         "description": "Sklep internetowy oparty na Worpress i WooCommerce\nWykorzystane technologie:\nWordpress\nWooCommerce\nGoogle Analytics\nRWD\nHTML5\nCSS3",
         "image": "choinki.jpg",
         "url": "https://choinkizdowozem.pl/",
-        "git": "https://github.com/Pawel-dev5/"
+        "git": "https://github.com/Pawel-dev5/",
+        "category": ["all", "frontend", "wordpress"]
       },
       {
         "title": "Oddam w Dobre ręce",
         "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nHTML5\nScss\nFirebase\nWebpack\nReact Hooks",
         "image": "oddamwdobrerece.png",
         "url": "https://pawel-dev5.github.io/oddamwdoberece/",
-        "git": "https://github.com/Pawel-dev5/oddamwdoberece/"
+        "git": "https://github.com/Pawel-dev5/oddamwdoberece/",
+        "category": ["all", "frontend", "react"]
       },
       {
         "title": "Finlux Biuro rachunkowe",
         "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nHTML5\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
         "image": "finlux1.png",
         "url": "https://finlux.com.pl/",
-        "git": "https://github.com/Pawel-dev5/"
+        "git": "https://github.com/Pawel-dev5/",
+        "category": ["all", "frontend", "wordpress"]
       },
       {
         "title": "Wyszukiwarka książek API Google",
         "description": "Wyszukiwarka książek połączona z API Google Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nFetch API\nWebpack\nReact Modal\nJSON",
         "image": "wyszukiwarka.jpg",
         "url": "https://wyszukiwarka-ksiazek.netlify.app/",
-        "git": "https://github.com/Pawel-dev5/devdeliver"
+        "git": "https://github.com/Pawel-dev5/devdeliver",
+        "category": ["all", "frontend", "react"]
       },
       {
         "title": "Portfolio",
         "description": "Strona na której właśnie się znajdujesz. Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nRWD\nWebpack\nReact Scroll\nJSON",
         "image": "Portfolio.png",
         "url": "https://pawel-nowecki-portfolio.netlify.app/",
-        "git": "https://github.com/Pawel-dev5/portfolio/"
+        "git": "https://github.com/Pawel-dev5/portfolio/",
+        "category": ["all", "react"]
       },
       {
         "title": "BestShop",
         "description": "Desktopowy layout sklepu internetowego\nWykorzystane technologie:\nHTML\nCSS3",
         "image": "BestShop.png",
         "url": "https://best-shop-layout-desktop.netlify.app/",
-        "git": "https://github.com/Pawel-dev5/BestShop"
+        "git": "https://github.com/Pawel-dev5/BestShop",
+        "category": ["all", "others"]
       },
       {
         "title": "Newsletter HOS",
         "description": "Newsletter przygotowywany na potrzeby cotygodniowych mailingów dla firmy House of Skills\nWykorzystane technologie:\nHTML\nCSS",
         "image": "hos.jpg",
         "url": "https://mailing-hos.netlify.app/",
-        "git": "https://github.com/Pawel-dev5/Mailing-HOS"
+        "git": "https://github.com/Pawel-dev5/Mailing-HOS",
+        "category": ["all", "others"]
       },
       {
         "title": "Newsletter wykończenia mieszkań",
         "description": "Wykorzystane technologie:\nHTML\nCSS",
         "image": "mailingMieszkania.png",
         "url": "https://newsletter-wykonczenia-mieszkan.netlify.app/",
-        "git": "https://github.com/Pawel-dev5/Mailing-wykonczenia-mieszkan"
+        "git": "https://github.com/Pawel-dev5/Mailing-wykonczenia-mieszkan",
+        "category": ["all", "others"]
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "I have had the opportunity to work with Tim on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Tim excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
-        "user": "Alastair Beaumont - Web Developer at AppColony"
+        "text": ".",
+        "user": "y"
       }
     ]
   }
