@@ -1,0 +1,67 @@
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+
+function PortfolioGrid(props) {
+    const {
+        portfolio,
+        filters
+    } = props;
+    const dataa = portfolio.projects;
+
+    if (dataa.length !== 0) {
+        return (
+            <>
+                <div className="container" key={dataa.title}>
+                    <div className="row" >
+                        {dataa.map(pro => {
+                            const projectImage = 'images/portfolio/' + pro.image;
+                            if (pro.length !== 0) {
+                                return (
+                                    <>
+                                        {pro.category.filter(p => p.includes(filters)).map((filteredName) => (
+                                            <div id="" key={pro.title} className="columns portfolio-item container-box col-sm">
+                                                <div className="item-wrap card">
+                                                    <a href={pro.url} title={pro.title} target="_blank" rel="noopener noreferrer">
+                                                        <img alt={pro.title} src={projectImage} />
+                                                        <div className="overlay card-body">
+                                                            <div className="portfolio-item-meta">
+                                                                <h5 className="card-title">{pro.title}</h5>
+                                                                <p className="newline card-text">{pro.description}</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div className="overlay">
+                                                    <div className="download-portfolio">
+                                                        <a href={pro.git} title={pro.title} target="_blank" rel="noopener noreferrer" >
+                                                            <button className="button-portfolio" href={pro.git}>
+                                                            {/* <FontAwesomeIcon className="icon-check" icon={faGithub} />  */}
+                                                            {/* <i class="fab fa-github"></i> */}
+                                                            <i className="fa fa-github portfolio-icons"></i>
+
+                                                            </button>
+
+                                                        </a>
+                                                        <a href={pro.url} title={pro.title} target="_blank" rel="noopener noreferrer" >
+                                                            <button className="button-portfolio" href={pro.url} >
+                                                            <FontAwesomeIcon className="icon-check portfolio-icons" icon={faGlobe} /> 
+                                                            </button>
+
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </>
+                                )
+                            } else return <h1>Ładowanie</h1>
+                        })
+                        }
+                    </div>
+                </div>
+            </>
+        )
+    } else return <h1>Ładowanie</h1>
+}
+export default PortfolioGrid;

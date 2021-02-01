@@ -7,53 +7,52 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 // import Contact from './Components/Contact';
 // import Testimonials from './Components/Testimonials';
-import Portfolio from './Components/Portfolio';
+// import Portfolio from './Components/Portfolio';
+import Portfolio2 from './Components/Portfolio2';
 
 class App extends Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       resumeData: {}
     };
   }
 
-  getResumeData(){
-      // const load = document.getElementById('siteLoading')
+  getResumeData() {
+    // const load = document.getElementById('siteLoading')
     $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
+      url: './resumeData.json',
+      dataType: 'json',
       cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
+      success: function (data) {
+        this.setState({ resumeData: data });
         // setTimeout(()=>{
         //   load.outerHTML='';
         // },500)
       }.bind(this),
-      error: function(xhr, status, err){
+      error: function (xhr, status, err) {
         console.log(err);
         alert(err);
       }
     });
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getResumeData();
   }
 
   render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
-        {/* <Contact data={this.state.resumeData.main}/> */}
-        <Footer data={this.state.resumeData.main}/>
-      </div>
-    );
+    if (this.state.resumeData) {
+      return (
+        <div className="App">
+          <Header data={this.state.resumeData.main} />
+          <About data={this.state.resumeData.main} />
+          <Resume data={this.state.resumeData.resume} />
+          <Portfolio2 data={this.state.resumeData.portfolio} />
+          <Footer data={this.state.resumeData.main} />
+        </div>
+      );
+    } else return <h1>Ładowanie</h1>
   }
 }
-
 export default App;
