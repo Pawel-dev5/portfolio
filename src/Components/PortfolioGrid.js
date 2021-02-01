@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faGlobe, faEye } from '@fortawesome/free-solid-svg-icons';
 
 function PortfolioGrid(props) {
     const {
@@ -45,7 +45,9 @@ function PortfolioGrid(props) {
                                                         </a>
                                                         <a href={pro.url} title={pro.title} target="_blank" rel="noopener noreferrer" >
                                                             <button className="button-portfolio" href={pro.url} >
-                                                            <FontAwesomeIcon className="icon-check portfolio-icons" icon={faGlobe} /> 
+                                                            {/* <FontAwesomeIcon className="icon-check portfolio-icons" icon={faGlobe} />  */}
+                                                            {/* <FontAwesomeIcon className="icon-check portfolio-icons" icon={faEye} />  */}
+                                                            <i class="fa fa-eye portfolio-icons"></i>
                                                             </button>
 
                                                         </a>
