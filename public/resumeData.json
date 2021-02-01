@@ -188,7 +188,7 @@
         "image": "choinki.jpg",
         "url": "https://choinkizdowozem.pl/",
         "git": "https://github.com/Pawel-dev5/",
-        "tag": ["all", "frontend", "wordpress"]
+        "category": ["all", "frontend", "wordpress"]
       },
       {
         "title": "Oddam w Dobre ręce",
@@ -196,7 +196,7 @@
         "image": "oddamwdobrerece.png",
         "url": "https://pawel-dev5.github.io/oddamwdoberece/",
         "git": "https://github.com/Pawel-dev5/oddamwdoberece/",
-        "tag": ["all", "frontend", "react"]
+        "category": ["all", "frontend", "react"]
       },
       {
         "title": "Finlux Biuro rachunkowe",
@@ -204,7 +204,7 @@
         "image": "finlux1.png",
         "url": "https://finlux.com.pl/",
         "git": "https://github.com/Pawel-dev5/",
-        "tag": ["all", "frontend", "wordpress"]
+        "category": ["all", "frontend", "wordpress"]
       },
       {
         "title": "Wyszukiwarka książek API Google",
@@ -212,7 +212,7 @@
         "image": "wyszukiwarka.jpg",
         "url": "https://wyszukiwarka-ksiazek.netlify.app/",
         "git": "https://github.com/Pawel-dev5/devdeliver",
-        "tag": ["all", "frontend", "wordpress"]
+        "category": ["all", "frontend", "react"]
       },
       {
         "title": "Portfolio",
@@ -220,7 +220,7 @@
         "image": "Portfolio.png",
         "url": "https://pawel-nowecki-portfolio.netlify.app/",
         "git": "https://github.com/Pawel-dev5/portfolio/",
-        "tag": ["all", "others"]
+        "category": ["all", "react"]
       },
       {
         "title": "BestShop",
@@ -228,7 +228,7 @@
         "image": "BestShop.png",
         "url": "https://best-shop-layout-desktop.netlify.app/",
         "git": "https://github.com/Pawel-dev5/BestShop",
-        "tag": ["all", "others"]
+        "category": ["all", "others"]
       },
       {
         "title": "Newsletter HOS",
@@ -236,7 +236,7 @@
         "image": "hos.jpg",
         "url": "https://mailing-hos.netlify.app/",
         "git": "https://github.com/Pawel-dev5/Mailing-HOS",
-        "tag": ["all", "others"]
+        "category": ["all", "others"]
       },
       {
         "title": "Newsletter wykończenia mieszkań",
@@ -244,7 +244,7 @@
         "image": "mailingMieszkania.png",
         "url": "https://newsletter-wykonczenia-mieszkan.netlify.app/",
         "git": "https://github.com/Pawel-dev5/Mailing-wykonczenia-mieszkan",
-        "tag": ["all", "others"]
+        "category": ["all", "others"]
       }
     ]
   },
