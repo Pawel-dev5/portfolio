@@ -34,7 +34,7 @@
       },
       {
         "name": "instagram",
-        "url": "hhttps://www.instagram.com/pawel_no_/?",
+        "url": "https://www.instagram.com/pawel_no_/",
         "className": "fa fa-instagram"
       }
     ]
@@ -195,7 +195,7 @@
         "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nHTML5\nScss\nFirebase\nWebpack\nReact Hooks",
         "image": "oddamwdobrerece.png",
         "url": "https://pawel-dev5.github.io/oddamwdoberece/",
-        "git": "https://github.com/Pawel-dev5/oddamwdoberece/",
+        "git": "https://oddamwdobrerece.netlify.app/",
         "category": ["all", "frontend", "react"]
       },
       {
