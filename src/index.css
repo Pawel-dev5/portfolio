@@ -5,7 +5,7 @@
 @import "vendor/owl.carousel/assets/owl.carousel.min.css";
 @import "vendor/aos/aos.css"; */
 
- /* body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -15,7 +15,7 @@
 } */
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -25,6 +25,80 @@ code {
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+.btn {
+  background: #444444;
+}
+.button-portfolio:hover {
+  border: solid 2px #444444;
+}
+.container {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn-primary {
+  min-width: 100px;
+  margin: 20px;
+}
+.btn-secondary {
+  margin: 0;
+  border-radius: 0;
+}
+.btn-group {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #444444; */
+}
+.btn-group :nth-child(1) {
+  border-radius: 5px 0 0 5px;
+}
+.btn-group :nth-child(4) {
+  border-radius: 0 5px 5px 0;
+}
+.btn:focus {
+  background: #ffffff;
+  color: #444444;
+}
+
+#portfolio-wrapper > .container > .row {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.portfolio-icons {
+  font-size: 18px;
+}
+.col-sm > a {
+  height: 100px;
+  overflow: hidden;
+  margin: 20px;
+  padding: 10px;
+}
+
+.col-sm > #overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+/* .card {
+  min-width: 300px !important;
+  margin-top: 30px;
+} */
 
 /*--------------------------------------------------------------
 # General
@@ -44,7 +118,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -112,7 +191,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -186,12 +266,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active > a i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -319,7 +403,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -444,7 +528,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #149ddd;
 }
 
@@ -539,7 +623,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
@@ -691,7 +776,8 @@ section {
   margin: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
@@ -732,7 +818,8 @@ section {
   left: calc(50% - 20px);
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -827,7 +914,9 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -901,7 +990,8 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -989,6 +1079,9 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+  .container {
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1007,7 +1100,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
@@ -1113,7 +1207,7 @@ section {
 }
 
 /* Center website */
-.main {
+/* .main {
   max-width: 1000px;
   margin: auto;
 }
@@ -1125,41 +1219,41 @@ h1 {
 
 .row {
   margin: 10px -16px;
-}
+} */
 
 /* Add padding BETWEEN each column */
-.row,
+/* .row,
 .row > .column {
   padding: 8px;
-}
+} */
 
 /* Create three equal columns that floats next to each other */
-.column {
+/* .column {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
-}
+/* } */
 
-/* Clear floats after rows */ 
-.row:after {
+/* Clear floats after rows */
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /* Content */
-.content {
+/* .content {
   background-color: white;
   padding: 10px;
-}
+} */
 
 /* The "show" class is added to the filtered elements */
-.show {
+/* .show {
   display: block;
-}
+} */
 
 /* Style the buttons */
-.btn {
+/* .btn {
   border: none;
   outline: none;
   padding: 12px 16px;
@@ -1227,7 +1321,7 @@ figure{
 @keyframes show {
   0% {opacity: 0;}
   100% {opacity: 1;}
-}
+} */
 /* 
 img{
   width: 300px;
@@ -1237,7 +1331,7 @@ img{
   border-radius: 20px;
   box-shadow: 0 10px 15px #a8b4fc30;
 } */
-
+/* 
 figcaption{
   font-size: 24px;
   margin-top: 20px;
@@ -1293,4 +1387,4 @@ span{
   0%,100% { transform: none; }
   50% { transform: translateY(20%) rotateY(10deg); }
 }
-
+ */

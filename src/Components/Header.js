@@ -74,7 +74,6 @@ class Header extends Component {
                   {/* <li><a className="smoothscroll" href="#tech">Contact</a></li> */}
                </ul>
             </nav>
-
             <div className="row banner">
                <div className="banner-text">
                   <h1 className="responsive-headline">{name}</h1>
@@ -92,19 +91,16 @@ class Header extends Component {
                   </ul>
                </div>
             </div>
-
-            <p className="scrolldown">
+            <div className="scrolldown">
                <ScrollLink
                   className="smoothscroll"
                   smooth={true}
                   duration={500}
                   to="about"
                >
-                  <i className="icon-down-circle"></i>
+                  <div className="icon-scroll"></div>
                </ScrollLink>
-               {/* <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a> */}
-            </p>
-
+            </div>
          </header>
       );
    }

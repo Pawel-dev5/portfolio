@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from "react-scroll";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 const ScrollLink = Scroll.Link;
 class Footer extends Component {
@@ -35,7 +37,7 @@ class Footer extends Component {
               duration={500}
               to="home"
             >
-              <i className="icon-up-open"></i>
+              <FontAwesomeIcon className="icon-up-open" icon={faChevronUp} />
             </ScrollLink>
           </div>
         </div>
