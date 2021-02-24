@@ -41,7 +41,7 @@ export default function Portfolio2(props) {
                 </div>
               </div>
               <div id="portfolio-wrapper" className="container-box col-sm">
-                <PortfolioGrid filters={filters} portfolio={data} />
+                <PortfolioGrid filters={filters} portfolio={data}/>
               {/* </div>
             </div> */}
           </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faGlobe, faEye } from '@fortawesome/free-solid-svg-icons';
 
 function PortfolioGrid(props) {
     const {
@@ -12,7 +12,7 @@ function PortfolioGrid(props) {
     if (dataa.length !== 0) {
         return (
             <>
-                <div className="container" key={dataa.title}>
+                <div className="container">
                     <div className="row" >
                         {dataa.map(pro => {
                             const projectImage = 'images/portfolio/' + pro.image;
@@ -20,7 +20,7 @@ function PortfolioGrid(props) {
                                 return (
                                     <>
                                         {pro.category.filter(p => p.includes(filters)).map((filteredName) => (
-                                            <div id="" key={pro.title} className="columns portfolio-item container-box col-sm">
+                                            <div key={pro.title} className="columns portfolio-item container-box col-sm">
                                                 <div className="item-wrap card">
                                                     <a href={pro.url} title={pro.title} target="_blank" rel="noopener noreferrer">
                                                         <img alt={pro.title} src={projectImage} />
@@ -36,18 +36,13 @@ function PortfolioGrid(props) {
                                                     <div className="download-portfolio">
                                                         <a href={pro.git} title={pro.title} target="_blank" rel="noopener noreferrer" >
                                                             <button className="button-portfolio" href={pro.git}>
-                                                            {/* <FontAwesomeIcon className="icon-check" icon={faGithub} />  */}
-                                                            {/* <i class="fab fa-github"></i> */}
-                                                            <i className="fa fa-github portfolio-icons"></i>
-
+                                                                <i className="fa fa-github portfolio-icons"></i>
                                                             </button>
-
                                                         </a>
                                                         <a href={pro.url} title={pro.title} target="_blank" rel="noopener noreferrer" >
                                                             <button className="button-portfolio" href={pro.url} >
-                                                            <FontAwesomeIcon className="icon-check portfolio-icons" icon={faGlobe} /> 
+                                                                <i className="fa fa-eye portfolio-icons"></i>
                                                             </button>
-
                                                         </a>
                                                     </div>
                                                 </div>
