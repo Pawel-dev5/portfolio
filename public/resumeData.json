@@ -9,7 +9,7 @@
     "bio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów IT.\nPrywatnie jestem pasjonatem wspinania skałkowego i wysokogórskiego zarówno latem jak i zimą. Interesuję się także piłką nożną, nowymi technologiami oraz motoryzacją.",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "email": "p.nowecki@gmail.com",
-    "phone": "791-893-867",
+    "phone": "791893867",
     "address": {
     "city": "Warszawa",
     "country": "Polska"
@@ -31,11 +31,6 @@
         "name": "facebook",
         "url": "http://facebook.com/p.nowecki",
         "className": "fa fa-facebook"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/pawel_no_/",
-        "className": "fa fa-instagram"
       }
     ]
   },
@@ -245,14 +240,6 @@
         "url": "https://newsletter-wykonczenia-mieszkan.netlify.app/",
         "git": "https://github.com/Pawel-dev5/Mailing-wykonczenia-mieszkan",
         "category": ["all", "others"]
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": ".",
-        "user": "y"
       }
     ]
   }
