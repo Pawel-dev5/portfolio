@@ -67,6 +67,9 @@
 ---------------------------------------------------------------------- */
 
 @media only screen and (max-width: 769px) {
+   .download-portfolio {
+      width: 100%;
+   }
   .column,
   .columns {
     display: block;
@@ -188,11 +191,6 @@
     margin: 0 10px;
   }
 
-  /* scrolldown link */
-  header .scrolldown {
-    display: none;
-  }
-
   /* About Section
    -------------------------------------------------------------------- */
   #about .profile-pic {
@@ -232,6 +230,11 @@
     text-align: center;
   }
 
+  .certyficates > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   /* Portfolio Section
    /* ----------------------------------------------------------------- */
   #portfolio-wrapper .columns {
@@ -282,6 +285,7 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
+ 
   /* mobile navigation
    -------------------------------------------------------------------- */
   #nav-wrap ul#nav {

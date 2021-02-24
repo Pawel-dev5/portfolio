@@ -91,18 +91,16 @@ class Header extends Component {
                   </ul>
                </div>
             </div>
-            <p className="scrolldown">
+            <div className="scrolldown">
                <ScrollLink
                   className="smoothscroll"
                   smooth={true}
                   duration={500}
                   to="about"
                >
-                  <div className="icon-scroll">
-
-                  </div>
+                  <div className="icon-scroll"></div>
                </ScrollLink>
-            </p>
+            </div>
          </header>
       );
    }
