@@ -13,7 +13,14 @@ class Resume extends Component {
       var certificates = this.props.data.certificates.map(function (certificates) {
         return <div key={certificates.company}><h3>{certificates.company}</h3>
           <p className="info">{certificates.title}<span>&bull;</span> <em className="date">{certificates.years}</em></p>
-          <p className="newline">{certificates.description}</p>
+          <details className="newline">
+            <summary >
+              {/* <span className="icon login"></span> */}
+              Pokaż szczegóły
+            </summary>
+            <p className="newline">{certificates.description}</p>
+          </details>
+
         </div>
       })
       var work = this.props.data.work.map(function (work) {
@@ -50,37 +57,30 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-
         <div className="row education">
           <div className="three columns header-col">
             <h1><span>Certyfikaty</span></h1>
           </div>
-
           <div className="nine columns main-col">
             <div className="row item">
-              <div className="twelve columns">
+              <div className="twelve columns certyficates">
                 {certificates}
               </div>
             </div>
           </div>
         </div>
-
         <div className="row work">
-
           <div className="three columns header-col">
             <h1><span>Praca</span></h1>
           </div>
-
           <div className="nine columns main-col">
             {work}
           </div>
         </div>
-
         <div className="row education">
           <div className="three columns header-col">
             <h1><span>Edukacja</span></h1>
           </div>
-
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
@@ -89,51 +89,32 @@ class Resume extends Component {
             </div>
           </div>
         </div>
-<div className="tech">
-
-        <div className="three columns header-col">
-          <h1><span>Technologie</span></h1>
-        </div>
-        <div className="techBox">
-          <div>
-            <div className="">
-              {/* <p className="lead center">{skillmessage}</p> */}
-              <ul className=" bgrid-quarters s-bgrid-thirds cf techul">
-                <li>
-
-                {skills}
-                </li>
-                <li>
-                {skills2}
-
-                </li>
-                <li>
-
-                {skills3}
-                </li>
-              </ul>
-              <ul className=" bgrid-quarters s-bgrid-thirds cf techul">
-              </ul>
-              <ul className=" bgrid-quarters s-bgrid-thirds cf techul">
-              </ul>
+        <div className="tech">
+          <div className="three columns header-col">
+            <h1><span>Technologie</span></h1>
+          </div>
+          <div className="techBox">
+            <div>
+              <div className="">
+                <ul className=" bgrid-quarters s-bgrid-thirds cf techul">
+                  <li>
+                    {skills}
+                  </li>
+                  <li>
+                    {skills2}
+                  </li>
+                  <li>
+                    {skills3}
+                  </li>
+                </ul>
+                <ul className=" bgrid-quarters s-bgrid-thirds cf techul">
+                </ul>
+                <ul className=" bgrid-quarters s-bgrid-thirds cf techul">
+                </ul>
+              </div>
             </div>
           </div>
-          {/* <div> */}
-            {/* <div className="nine columns main-col"> */}
-              {/* <p className="lead center">{skillmessage}</p> */}
-              {/* <ul className=" bgrid-quarters s-bgrid-thirds cf">
-                {skills}
-              </ul>
-              <ul className=" bgrid-quarters s-bgrid-thirds cf">
-                {skills2}
-              </ul>
-              <ul className=" bgrid-quarters s-bgrid-thirds cf">
-                {skills3}
-              </ul>
-            </div>
-          </div> */}
         </div>
-</div>
 
       </section>
     );
