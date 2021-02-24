@@ -117,19 +117,23 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #179038; }
 
-
-details > summary::before {
-   /* font-family: "Font Awesome 5 Free"; */
-   /* content: 'fa-var-glass'; */
-}
 details > summary {
    list-style-type: none;
+   color: #6E7881;
+   font: 15px/24px 'opensans-regular', sans-serif;
 }
 details > summary::-webkit-details-marker {
-   /* display: none; */
+   display: none;
 }
 .certyficates > div:nth-child(3) > .newline {
    display: none;
+}
+.icon-circle-down{
+   margin-right: 10px;
+   font-size: 16px;
+}
+details[open] > summary > svg{
+   transform: rotate(180deg);
 }
 /* primary navigation
 --------------------------------------------------------------------- */

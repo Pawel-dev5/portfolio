@@ -90,11 +90,11 @@ time, mark, audio, video {
    animation-iteration-count: infinite;
    animation-name: scroll;
 }
-
 @keyframes scroll {
    form {top: 10%; opacity: 1;}
    to {top: 10%; opacity: 0; transform: translateY(46px);}
 }
+
 .icon-up-open{
    font-size: 40px;
    padding-top: 10px;
