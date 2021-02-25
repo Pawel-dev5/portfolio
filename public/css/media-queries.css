@@ -231,9 +231,10 @@
   }
 
   .certyficates > div, .works > div {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
+    text-align: center;
   }
    
   /* Portfolio Section
