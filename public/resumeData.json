@@ -4,9 +4,9 @@
     "occupation": "Junior Frontend Developerem",
     "description": " obecnie zatrudniony w ",
     "employer": "Agencji Hagen",
-    "jobDescription": "Account Executive",
+    "jobDescription": "Senior Account Executive",
     "image": "profilepic.jpg",
-    "bio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów IT.\nPrywatnie jestem pasjonatem wspinania skałkowego i wysokogórskiego zarówno latem jak i zimą. Interesuję się także piłką nożną, nowymi technologiami oraz motoryzacją.",
+    "bio": "Jestem Junior Frontend Developerem, obecnie zatrudniony w Agencji Hagen gdzie pracuje jako Senior Account Executive przy zarządzaniu projektami IT, głównie aplikacji webowych. Prowadzę działalność gospodarczą i poszukuję nowych projektów.\nPrywatnie jestem pasjonatem wspinania skałkowego i wysokogórskiego zarówno latem jak i zimą. Interesuję się także piłką nożną, nowymi technologiami oraz motoryzacją.",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "email": "p.nowecki@gmail.com",
     "phone": "791893867",
@@ -67,9 +67,15 @@
     ],
     "work": [
       {
+        "company": "Senior Account Executive",
+        "title": "Agencja Hagen, Warszawa",
+        "years": "05.2021 - obecnie",
+        "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills"
+      },
+      {
         "company": "Account Executive",
         "title": "Agencja Hagen, Warszawa",
-        "years": "11.2019 - obecnie",
+        "years": "11.2019 - 04.2021",
         "description": "Zarządzanie i realizacja projektów aplikacji webowych dla:\nBNP Paribas\nHouse of Skills\nMeetfaces"
       },
       {
@@ -178,36 +184,36 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Sklep internetowy Choinki z dowozem",
-        "description": "Sklep internetowy oparty na Worpress i WooCommerce\nWykorzystane technologie:\nWordpress\nWooCommerce\nGoogle Analytics\nRWD\nHTML5\nCSS3",
-        "image": "choinki.jpg",
-        "url": "https://choinkizdowozem.pl/",
-        "git": "https://github.com/Pawel-dev5/",
-        "category": ["all", "frontend", "wordpress"]
-      },
-      {
         "title": "Oddam w Dobre ręce",
-        "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nHTML5\nScss\nFirebase\nWebpack\nReact Hooks",
+        "description": "Strona do oddawania rzeczy potrzebującym z możliwością utworzenia konta i zalogowania. Na stronie dostępne są dwa formularze, jeden kontaktowy, a drugi dostępny dopiero po zalogowaniu do oddawania rzeczy.\nWykorzystane technologie:\nReact\nJavaScipt\nScss\nFirebase\nWebpack\nReact Hooks",
         "image": "oddamwdobrerece.png",
         "url": "https://oddamwdobrerece.netlify.app/",
         "git": "https://github.com/Pawel-dev5/oddamwdoberece/",
         "category": ["all", "frontend", "react"]
       },
       {
-        "title": "Finlux Biuro rachunkowe",
-        "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nHTML5\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
-        "image": "finlux1.png",
-        "url": "https://finlux.com.pl/",
+        "title": "To Do App",
+        "description": "Aplikacja listy zadań do zrobienia. Dodawanie zadań z kategorią oraz priorytetem, zmiana statusu zadania, Drop&Drag, export PDF. Instrukcja korzystania zrobiona z React Joyride. Wykorzystane technologie:\nReact\nReact Hooks\nJavaScript\nBootstrap\njsPDF\nReact Joyride",
+        "image": "ToDoApp.jpg",
+        "url": "https://myy-todoapp.netlify.app/",
+        "git": "https://github.com/Pawel-dev5/to-do-aplication",
+        "category": ["all", "react"]
+      },
+      {
+        "title": "Sklep internetowy Choinki z dowozem",
+        "description": "Sklep internetowy oparty na Worpress i WooCommerce\nWykorzystane technologie:\nWordpress\nWooCommerce\nGoogle Analytics\nRWD\nCSS3",
+        "image": "choinki.jpg",
+        "url": "https://choinkizdowozem.pl/",
         "git": "https://github.com/Pawel-dev5/",
         "category": ["all", "frontend", "wordpress"]
       },
       {
-        "title": "Wyszukiwarka książek API Google",
-        "description": "Wyszukiwarka książek połączona z API Google Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nFetch API\nWebpack\nReact Modal\nJSON",
-        "image": "wyszukiwarka.jpg",
-        "url": "https://wyszukiwarka-ksiazek.netlify.app/",
-        "git": "https://github.com/Pawel-dev5/devdeliver",
-        "category": ["all", "frontend", "react"]
+        "title": "Finlux Biuro rachunkowe",
+        "description": "Strona biura rachunkowego z blogiem zarządzanym z poziomu CMSa, przygotowana na postawie szablonu Wordpress.\nWykorzystane technologie:\nCSS3\nWordpress plugins\nElementor\nGoogle Analytics\nRWD",
+        "image": "finlux1.png",
+        "url": "https://finlux.com.pl/",
+        "git": "https://github.com/Pawel-dev5/",
+        "category": ["all", "frontend", "wordpress"]
       },
       {
         "title": "Portfolio",
@@ -216,6 +222,14 @@
         "url": "https://pawel-nowecki-portfolio.netlify.app/",
         "git": "https://github.com/Pawel-dev5/portfolio/",
         "category": ["all", "react"]
+      },
+      {
+        "title": "Wyszukiwarka książek API Google",
+        "description": "Wyszukiwarka książek połączona z API Google Wykorzystane technologie:\nReact\nJavaScript\nHTML\nCSS3\nFetch API\nWebpack\nReact Modal\nJSON",
+        "image": "wyszukiwarka.jpg",
+        "url": "https://wyszukiwarka-ksiazek.netlify.app/",
+        "git": "https://github.com/Pawel-dev5/devdeliver",
+        "category": ["all", "frontend", "react"]
       },
       {
         "title": "BestShop",
