@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Scroll from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import {ContactForm} from './ContactForm'
 
 const ScrollLink = Scroll.Link;
 class Footer extends Component {
@@ -40,6 +41,9 @@ class Footer extends Component {
               <FontAwesomeIcon className="icon-up-open" icon={faChevronUp} />
             </ScrollLink>
           </div>
+        </div>
+        <div>
+          <ContactForm />
         </div>
       </footer>
     );
